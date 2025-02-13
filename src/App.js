@@ -45,7 +45,7 @@ function App() {
           <div className="mr-[20px] ml-[20px] text-[26px] lg:text-[32px] " data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500">
             11.03
           </div>
-          <div data-aos="fade-left">
+          <div data-aos="fade-left" data-aos-delay="100" data-aos-duration="1500">
             <div>20</div>
             <div>25</div>
           </div>
@@ -126,7 +126,7 @@ function App() {
             <div className='font5 text-[30px] mb-[10px]' data-aos="fade-right" data-aos-delay="100" data-aos-duration="1500">Tiệc Cưới Nhà Trai</div>
             <div className='font3' data-aos="fade-left" data-aos-delay="100" data-aos-duration="1500">THU 7 | 17H00</div>
             <div className='font3' data-aos="fade-right" data-aos-delay="100" data-aos-duration="1500">23.11.2024</div>
-            <div className='font2 text-[20px] mt-[20px]' data-aos="fade-left" data-aos-delay="100" data-aos-duration="1500">(Tức Ngày 12 Tháng 2 Âm lịch, Năm ẤT Tỵ.)</div>
+            <div className='font2 text-[18px] mt-[20px]' data-aos="fade-left" data-aos-delay="100" data-aos-duration="1500">(Tức Ngày 12 Tháng 2 Âm lịch, Năm ẤT Tỵ.)</div>
             <div className='flex justify-center'>
               <div onClick={handleClickMoney} className='button-86' > Gửi Mừng Cưới </div>
             </div>
