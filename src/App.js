@@ -132,7 +132,7 @@ function App() {
             <div className='font3' data-aos="fade-right" data-aos-delay="100" data-aos-duration="1500">23.11.2024</div>
             <div className='font2 text-[18px] mt-[20px]' data-aos="fade-left" data-aos-delay="100" data-aos-duration="1500">(Tức Ngày 12 Tháng 2 Âm lịch, Năm ẤT Tỵ.)</div>
             <Flatpickr
-              className=' text-center mt-[10px] mb-[10px] font3 text-[18px] lich'
+              className=' text-center mt-[10px] mb-[10px] font3 text-[12px] lich'
               value={date}
               options={{
                 dateFormat: "d-m-Y"
@@ -179,7 +179,7 @@ function App() {
         }
         <div className='flex justify-center'>
           <div className=''>
-            <iframe className='map w-[300px] h-300px] md:w-[600px] md:h-[450px]' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4418.672181496057!2d105.80151037584059!3d20.989762089115654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135acbfeb557d3b%3A0x18a21f588b4fd5ee!2zODYgxJAuIE5ndXnhu4VuIFhp4buDbiwgVGhhbmggWHXDom4gTmFtLCBUaGFuaCBYdcOibiwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e1!3m2!1svi!2s!4v1740037319734!5m2!1svi!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe className='map w-[300px] h-[350px] md:w-[600px] md:h-[450px]' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4418.672181496057!2d105.80151037584059!3d20.989762089115654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135acbfeb557d3b%3A0x18a21f588b4fd5ee!2zODYgxJAuIE5ndXnhu4VuIFhp4buDbiwgVGhhbmggWHXDom4gTmFtLCBUaGFuaCBYdcOibiwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e1!3m2!1svi!2s!4v1740037319734!5m2!1svi!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
 
