@@ -133,13 +133,14 @@ function App() {
             <div className='font2 text-[18px] mt-[20px]' data-aos="fade-left" data-aos-delay="100" data-aos-duration="1500">(Tức Ngày 12 Tháng 2 Âm lịch, Năm ẤT Tỵ.)</div>
             <Flatpickr
               className=' text-center mt-[10px] mb-[10px] font3 text-[12px] lich'
+              data-aos="fade-down" data-aos-delay="100" data-aos-duration="1500"
               value={date}
               options={{
                 dateFormat: "d-m-Y"
               }}
               onChange={(dateSelect) => setDate(dateSelect)}
             />
-            <div className='flex justify-center'>
+            <div className='flex justify-center' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500">
               <div onClick={handleClickMoney} className='button-86' > Gửi Mừng Cưới </div>
             </div>
           </div>
@@ -180,6 +181,46 @@ function App() {
         <div className='flex justify-center'>
           <div className=''>
             <iframe className='map w-[300px] h-[350px] md:w-[600px] md:h-[450px]' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4418.672181496057!2d105.80151037584059!3d20.989762089115654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135acbfeb557d3b%3A0x18a21f588b4fd5ee!2zODYgxJAuIE5ndXnhu4VuIFhp4buDbiwgVGhhbmggWHXDom4gTmFtLCBUaGFuaCBYdcOibiwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e1!3m2!1svi!2s!4v1740037319734!5m2!1svi!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div>
+          <div className="font1 text-[42px] lg:text-[60px] mt-[50px] mb-[30px]">
+            Album Ảnh Cưới
+          </div>
+          <div className="flex justify-center mt-[30px] mb-[50px] md:mb-[130px]">
+            <div className="w-[29%] h-[320px] md:w-[285px] md:h-[320px] " >
+              <img src={codau} alt="ảnh 1" className="object-fit img2 mb-[10px]" />
+              <img src={codau} alt="ảnh 1" className="object-fit img2" />
+            </div>
+            <div className="w-[56%] h-[320px] md:w-[285px] md:h-[320px] ml-[10px]">
+              <img src={chure} alt="ảnh 1" className="object-fit img2" />
+            </div>
+          </div>
+          <div className="flex justify-center mt-[30px] mb-[50px] md:mb-[130px]">
+            <div className="w-[56%] h-[320px] md:w-[285px] md:h-[320px] ml-[10px]">
+              <img src={chure} alt="ảnh 1" className="object-fit img2" />
+            </div>
+            <div className="w-[29%] h-[320px] md:w-[285px] md:h-[320px] ml-[10px]" >
+              <img src={codau} alt="ảnh 1" className="object-fit img2 mb-[10px]" />
+              <img src={codau} alt="ảnh 1" className="object-fit img2" />
+            </div>
+          </div>
+          <div className="flex justify-center mt-[30px] mb-[50px] md:mb-[130px]">
+            <div className="w-[18%] h-[320px] md:w-[285px] md:h-[320px] ml-[10px]">
+              <img src={chure} alt="ảnh 1" className="img2" />
+            </div>
+            <div className="w-[18%] h-[320px] md:w-[285px] md:h-[320px] ml-[10px]">
+              <img src={codau} alt="ảnh 1" className="img2" />
+            </div>
+            <div className="w-[18%] h-[320px] md:w-[285px] md:h-[320px] ml-[10px]">
+              <img src={chure} alt="ảnh 1" className="img2" />
+            </div>
+            <div className="w-[18%] h-[320px] md:w-[285px] md:h-[320px] ml-[10px]">
+              <img src={codau} alt="ảnh 1" className="img2" />
+            </div>
+            <div className="w-[18%] h-[320px] md:w-[285px] md:h-[320px] ml-[10px] mr-[10px]">
+              <img src={chure} alt="ảnh 1" className="img2" />
+            </div>
           </div>
         </div>
 
