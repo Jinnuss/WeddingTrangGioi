@@ -131,15 +131,16 @@ function App() {
             <div className='font3' data-aos="fade-left" data-aos-delay="100" data-aos-duration="1500">THU 7 | 17H00</div>
             <div className='font3' data-aos="fade-right" data-aos-delay="100" data-aos-duration="1500">23.11.2024</div>
             <div className='font2 text-[18px] mt-[20px]' data-aos="fade-left" data-aos-delay="100" data-aos-duration="1500">(Tức Ngày 12 Tháng 2 Âm lịch, Năm ẤT Tỵ.)</div>
-            <Flatpickr
-              className=' text-center mt-[10px] mb-[10px] font3 text-[12px] lich'
-              data-aos="fade-down" data-aos-delay="100" data-aos-duration="1500"
-              value={date}
-              options={{
-                dateFormat: "d-m-Y"
-              }}
-              onChange={(dateSelect) => setDate(dateSelect)}
-            />
+            <div data-aos="fade-down" data-aos-delay="100" data-aos-duration="1500">
+              <Flatpickr
+                className=' text-center mt-[10px] mb-[10px] font3 text-[12px] lich'
+                value={date}
+                options={{
+                  dateFormat: "d-m-Y"
+                }}
+                onChange={(dateSelect) => setDate(dateSelect)}
+              />
+            </div>
             <div className='flex justify-center' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500">
               <div onClick={handleClickMoney} className='button-86' > Gửi Mừng Cưới </div>
             </div>
